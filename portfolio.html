@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="portfolioCSS.css" />
+    <script src="https://kit.fontawesome.com/fc67f5bdc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <img src="logo2.png" alt="Me" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+
+                <p>
+                    Web Developer / UX/UI Designer
+                    <h1>Hi, I'm <span>Preet</span> <br />sodhi from Canada.  </h1>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!----------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="freelance.jpg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A passionate Web designer looking to work in a competetive and growth oriented environment where my skills can be used towards the growth of the company.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick = "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br />Experienced in Building and maintaining websites. Proficient in Html5, Javascript and CSS3. Know basics of React and Node.js.</li>
+                            <li><span>Software development</span><br />Well versed in Programming languages. Experience with back end developing using java, Python, C and C++. Strong Debugging skills. </li>
+                            <li>
+                                <span>Databse management</span><br />Well versed in Database design and in writing Tables, Stored Procedures, views, Triggers, Indexes and Constraints using MySQL and PostgreSQL.
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2022-Current</span><br />Part-time Freelancing as UI/UX designer </li>
+                            <li><span>Jan 2019-Current</span><br />Customer Retention and Technical Support </li>
+                            <li><span>Feb 2018-Jan 2019</span><br />Junior Web Developer at REW</li>
+                            <li><span>July 2015-Dec 2015</span><br />Software developer at Bajaj motors, India (CO-OP)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Canadian Equivalent 4 years Bachelor's Degree Evaluated by WES</span><br />Recevied through Twinning program with <br />Vancouver Island University, Nanaimo and Chitkara University, Punjab</li>
+                            <li><span>Jan 2016-Feb 2018</span><br />Diploma in Computing Science from Vancouver Island University</li>
+                            <li><span>Sep 2013-Dec 2015</span><br />Bachelor's of computing science from Chitkara University, Punjab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------services--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My services</h1>
+            <div class="services-list">
+               
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        I do Web Design.
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>
+                        I do UI/UX.
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        I do App Design.
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!---------------------------portfolio--------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="musicwebiste.png" />
+                    <div class="layer">
+                        <h3>Beats store</h3>
+                        <p>
+                            The Website lets you buy beats of various music generes produced by talented artists at affordable prices.
+                            Artists from all around the globe can sell beats on the website. Mobile app can be downloaded from App store and Google playstore.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="floraclothing.png" />
+                    <div class="layer">
+                        <h3>Online clothing store</h3>
+                        <p>
+                            This online clothing store offers a wide variety of clothes for Men, women and Children.
+                            This Website offers all kinds of apparels ranging from street wear to professional suits at very reasonable prices.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                   </div>
+              </div>
+                <div class="work">
+                    <img src="jewelery.png" />
+                    <div class="layer">
+                        <h3>Online Jewelry store</h3>
+                        <p>
+                            The website allows you to view and order beautiful Jewelry online from a local store in India. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <a href="#" class="btn"> See More</a>
+        </div>
+
+
+    </div>
+    <!--------------------------contact---------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Preetsodhi761@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i>+1 250-618-2344</p>
+                <div class="social-icons">
+                    <a href="https://"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="cv.pdf" target="_blank" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <textarea name="Message" rows="6" placeholder="Your Mssage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Navpreet Singh Sodhi</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for (tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <noscript>you need to enable javascript in order to view full website</noscript>
+</body>
+</html>
